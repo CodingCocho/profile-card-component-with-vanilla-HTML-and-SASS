@@ -1,0 +1,186 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  padding: 0px;
+  margin: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+body .background {
+  padding: 0px;
+  margin: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: #19a2ae;
+  overflow: hidden;
+}
+
+.container {
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  height: 400px;
+  width: 300px;
+  -webkit-box-shadow: 0px 10px;
+          box-shadow: 0px 10px;
+  border: .5px black solid;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .top-half {
+  height: 70%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .top-half .top-top-background {
+  height: 50%;
+  width: 100%;
+}
+
+.container .top-half .top-top-background img {
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.container .top-half .image-container {
+  position: absolute;
+  top: 100px;
+  height: 75px;
+  width: 75px;
+  border: 5px white solid;
+  border-radius: 50px;
+}
+
+.container .top-half .image-container .profile-pic {
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+}
+
+.container .top-half .top-bottom-half {
+  background-color: white;
+  height: 50%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .top-half .top-bottom-half .name-and-age {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .top-half .top-bottom-half .name-and-age #name {
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.container .top-half .top-bottom-half .name-and-age #age {
+  color: #6a6f81;
+}
+
+.container .top-half .top-bottom-half #city {
+  margin-top: 10px;
+  color: #6a6f81;
+  font-size: 14px;
+}
+
+.container .bottom-half {
+  height: 30%;
+  width: 100%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.container .bottom-half .stat-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .bottom-half .stat-container #stat-number {
+  font-weight: 700;
+}
+
+.container .bottom-half .stat-container #stat-category {
+  color: #6a6f81;
+  font-size: 12px;
+}
+/*# sourceMappingURL=style.css.map */
