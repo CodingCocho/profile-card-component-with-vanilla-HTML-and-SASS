@@ -50,9 +50,6 @@ body .background {
   position: relative;
   height: 400px;
   width: 300px;
-  -webkit-box-shadow: 0px 10px;
-          box-shadow: 0px 10px;
-  border: .5px black solid;
   border-radius: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -92,9 +89,9 @@ body .background {
 
 .container .top-half .image-container {
   position: absolute;
-  top: 100px;
-  height: 75px;
-  width: 75px;
+  top: 90px;
+  height: 100px;
+  width: 100px;
   border: 5px white solid;
   border-radius: 50px;
 }
@@ -122,7 +119,7 @@ body .background {
 }
 
 .container .top-half .top-bottom-half .name-and-age {
-  margin-top: 60px;
+  margin-top: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
